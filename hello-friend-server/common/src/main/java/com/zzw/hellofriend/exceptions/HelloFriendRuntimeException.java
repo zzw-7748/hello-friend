@@ -5,7 +5,7 @@ import com.zzw.hellofriend.dto.ret.RetCodeEnum;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class HelloFriendRuntimeException extends Exception implements GetRetCodeEnum {
+public class HelloFriendRuntimeException extends RuntimeException implements GetRetCodeEnum {
 
     private final RetCodeEnum retCodeEnum;
 

@@ -18,7 +18,6 @@
         </dependency>
     </dependencies>
 
-    <!--spring boot 应用打包插件-->
     <build>
         <plugins>
             <plugin>
